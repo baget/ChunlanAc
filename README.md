@@ -1,7 +1,7 @@
 ChunlanAC Lib
 ==============
 
-An Arduino Lib for Chunlan Air Condition
+An Arduino Lib for Chunlan Air Conditioner 
 
 Prerequisite:
 -------------
