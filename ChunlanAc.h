@@ -95,7 +95,7 @@ struct AcCmd {
 	}
 
 
-	enum class State { Cmd = 0x01, On = 0x02, Off = 0x05 };
+	typedef enum { Cmd = 0x01, On = 0x02, Off = 0x05 }State;
 	
 
 	/*
@@ -114,7 +114,7 @@ struct AcCmd {
 	}
 
 
-	enum class Mode { Cool, Heat, Dehumidif, FanOnly };
+	typedef enum { Cool, Heat, Dehumidif, FanOnly }Mode;
 
 	/*
 		Mode - AC Mode (Cool/Heat/Dehumidif/FanOnly)

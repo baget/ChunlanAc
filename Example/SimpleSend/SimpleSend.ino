@@ -48,8 +48,8 @@ void setup() {
 }
 
 void loop() {  
-  cmd.setState(AcCmd::State::On);
-  cmd.setMode(AcCmd::Mode::Cool, 0);
+  cmd.setState(AcCmd::On);
+  cmd.setMode(AcCmd::Cool, 0); 
   cmd.setTemp(25);
   
   encoder.encode(cmd, outArr, &outArrSize);
@@ -57,8 +57,8 @@ void loop() {
 
   delay(3000);
   
-  cmd.setState(AcCmd::State::Off);
-  cmd.setMode(AcCmd::Mode::Cool, 0);
+  cmd.setState(AcCmd::Off);
+  cmd.setMode(AcCmd::Cool, 0);
   cmd.setTemp(25);
   
   encoder.encode(cmd, outArr, &outArrSize);
