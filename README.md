@@ -5,8 +5,8 @@ An Arduino Lib for Chunlan Air Condition
 
 Prerequisite:
 -------------
-1)	it use IRLib http://tech.cyborg5.com/irlib/
-2)	_Update 21-Jul-2015:_ No need for C++11 Changes
+1) it use IRLib http://tech.cyborg5.com/irlib/
+2) _Update 21-Jul-2015:_ No need for C++11 Changes
 
 
 
